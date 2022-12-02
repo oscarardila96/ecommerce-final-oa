@@ -17,7 +17,7 @@ const NewUser = () => {
   }
   return (
     <div>
-      <Form onSubmit={handleSubmit(submit)} style={{ maxWidth: "500px", margin: "0 auto" }}>
+      <Form onSubmit={handleSubmit(submit)} style={{ maxWidth: "500px", margin: "0 auto", marginTop: "80px" }}>
         <Form.Group className="mb-3" controlId="formBasicFirstName">
           <Form.Label>First Name</Form.Label>
           <Form.Control type="text" placeholder="First Name" {...register("firstName")} />
